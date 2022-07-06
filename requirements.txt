@@ -1,0 +1,51 @@
+Task 1
+Create a website using HTML, JS and CSS technologies.
+A local news agency (newspaper) needs a website to show their latest posts/news. This startup is still pretty small in size (5-6 collaborators), but they need to develop a modern website because they want to invest a lot in digital communication.
+They care about style and want their website to be eye-catching and enjoyable to use.
+Their inspiration comes from important american newspapers like: 
+https://www.washingtonpost.com/ 
+https://www.theguardian.com/
+https://www.nytimes.com/
+They want to focus on the quality of posts and images preferring short, information-rich content.
+The website must present the following pages:
+Home
+News (add at least 5 posts)
+Team
+About
+Scripts test (only used to test JS, see below)
+
+Moreover, develop and test the following JS functions:
+given a number, return the Factorial of the number
+given a string, return true if, for every unique character, there is an even number of occurrences, false otherwise. (ex. “aabbcc” -> true, “aabcc” -> false, “aaaabbcc” -> true)
+given a string return if the string is Palindrome
+
+develop the previous functions as “pure” and later use them to compute the output from HTML input elements (do it in the Scripts test page).
+
+Link the project to GITHUB and push it. 
+
+tips:
+Use browser inspection items to copy colors and styles from existing websites
+browse possible solutions on internet
+
+Task 2
+Create a ServiceNow application to manage events:
+There will be an Event table with the following features:
+auto number
+Name (mandatory)
+Date (in the future)
+Type of event (3 choice list + other)
+Other (should appear only if type of event is “other”)
+Proposed by (user)
+
+
+There will be a Review table with the following features:
+auto number
+event (reference)
+user
+date
+stars (0 to 5)
+comment
+
+Users can write review for PAST events (the date of the event you are reviewing must be in the past)
+
+Link this project to a new GitHub repository
