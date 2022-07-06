@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header nav {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    background-color: rgba(248, 6, 6, 0.7);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.navigation-list-item {
+    list-style: none;
+}
+
+.navigation-list-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navigation-list-item a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.footer-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    color: white;
+    background-color: rgba(248, 6, 6, 0.7);
+    padding: 1rem;
+}
+
+.home-container{
+    background: url('/source/asharq-news-offices-dubai-10-700x500-compact.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.home-decsription{
+    position: absolute;
+    top: 18rem;
+    font-size: 40px;
+    width: 50%;
+    left: 6rem;
+    z-index: 2;
+    color: white;
+}
+
+.news-container {
+    width: 80%;
+    margin: 15rem auto;
+}
+
+.new-article {
+    display: grid;
+    grid-template-areas: 
+    "heading img"
+    "descr img";
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(231, 231, 231);
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    box-shadow: 2px 2px 7px 1px;
+}
+
+
+
+.new-heading {
+    grid-area: heading;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+}
+
+.new-description {
+    grid-area: descr;
+    font-size: 20px;
+    text-indent: 1.5rem;
+    line-height: 1.5;
+}
+
+.new-img-container {
+    grid-area: img;
+}
+
+.new-img-container img {
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+ }
+
+ .team-article {
+    display: grid;
+    grid-template-areas: 
+    "heading img"
+    "descr img";
+    grid-template-rows: 200px 300px;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(231, 231, 231);
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    box-shadow: 2px 2px 7px 1px;
+}
+
+.team-heading {
+    grid-area: heading;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.team-description {
+    grid-area: descr;
+    font-size: 20px;
+    text-indent: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+.team-img-container {
+    grid-area: img;
+    height: 70%;
+    margin: auto -2rem;
+
+}
+
+
+ .team-img-container img {
+    width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border-radius: 9px;
+   
+}
+
+.about-container {
+    width: 80%;
+    margin: 15rem auto;
+}
+
+.about-article {
+    display: grid;
+    grid-template-areas: 
+    "heading img"
+    "descr img";
+    grid-template-rows: 200px 300px;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(231, 231, 231);
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    box-shadow: 2px 2px 7px 1px;
+}
+
+.about-heading {
+    grid-area: heading;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-description {
+    grid-area: descr;
+    font-size: 20px;
+    text-indent: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+.about-img-container {
+    grid-area: img;
+    height: 70%;
+    margin: auto;
+
+}
+
+
+ .about-img-container img {
+    width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border-radius: 9px;
+   
+}
+
+.script-container {
+    margin: 15rem;
+}
+
+.script-form {
+    background-color: #f1eaea;
+    padding: 1rem 2rem 2rem;
+    display: grid;
+    width: 35%;
+    margin: 0px auto 4rem auto;
+    text-align: center;
+    justify-content: center;
+    row-gap: 1rem;
+    border-radius: 9px;
+}
+
+.script-form button{
+    cursor: pointer;
+
+}
