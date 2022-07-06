@@ -56,7 +56,6 @@ function evenNumOcc(event){
 
     for(var key in answer){
         var count = answer[key];
-        console.log(count);
         if(count % 2 == 1){
             pEl.textContent ='false'
             return;
